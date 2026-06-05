@@ -3,9 +3,9 @@ import { getFiles } from '../services/filesService';
 
 export const fetchFiles = createAsyncThunk(
   'files/fetchFiles',
-  async (_, thunkAPI) => {
+  async (fileName, thunkAPI) => {
     try {
-      return await getFiles();
+      return await getFiles(fileName);
     } catch (error) {
       return thunkAPI.rejectWithValue(error?.message || 'Failed to fetch files');
     }
