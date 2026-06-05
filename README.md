@@ -29,3 +29,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Services
 
 Please modify the variable API_URL if your want to run in localy due to the app is running with the deployed url
+
+![alt text](<Complete Data Flow Diagram.svg>)
