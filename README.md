@@ -1,3 +1,7 @@
+## Requirements
+
+You can run this application using node >= 16
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -30,4 +34,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 Please modify the variable API_URL if your want to run in localy due to the app is running with the deployed url
 
+## Complete Data Flow Diagram
+
 ![alt text](<Complete Data Flow Diagram.svg>)
+
+## Docker
+run `docker build -t imageName dirName` to generate the image 
