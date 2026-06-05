@@ -28,6 +28,40 @@
   color: #61dafb;
 }
 
+.files-table th,
+.files-table td {
+  white-space: normal;
+}
+
+.page-title {
+  background-color: #FF6666;
+  color: "FFFFFF";
+}
+
+@media (max-width: 900px) {
+  .files-table th,
+  .files-table td {
+    font-size: 0.92rem;
+    padding: 0.55rem;
+  }
+
+  .files-page-heading h1 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .files-table th,
+  .files-table td {
+    font-size: 0.82rem;
+    padding: 0.45rem;
+  }
+
+  .files-page-heading h1 {
+    font-size: 1.1rem;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
